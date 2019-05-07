@@ -105,7 +105,7 @@ def test_model(model,X,Y):                              #测试，计算准确�
   
 if __name__ == '__main__':  
     # the data, shuffled and split between tran and test sets  
-    (X_train, y_train), (X_val, y_val),(X_test, y_test) = load_data('olivettifaces.gif')  
+    (X_train, y_train), (X_val, y_val),(X_test, y_test) = load_data('D:\coding\DeepLearning\keras_face_recognition_cnn\olivettifaces.gif')  
     
     if K.image_data_format() == 'channels_first':
         X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols)  
