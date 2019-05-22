@@ -145,24 +145,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""x,y=im.size
-print("原图像im大小为：",x,y)
- 
-im.resize((128,128))
-print(im.size)
-reim=im.resize((128,128))
-print("resize后的图像reim大小为：",reim.size)
-print("resize后的图像im大小为：",im.size)
- 
-im.thumbnail((128,128))
-print("thumbnail后的图像im大小为：",im.size)
-r,g,b = im.split()
-r.show()
-g.show()
-b.show()
-reim.show()
-im.show()
 
-List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-Slice = random.sample(List, 5)
-print(Slice)"""
